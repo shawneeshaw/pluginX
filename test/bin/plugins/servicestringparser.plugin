@@ -1,0 +1,16 @@
+<Plugin name        = "String parse service example"
+        author      = ""
+        url         = "http://www.unknown.com"
+        description = "An example to define service."
+        version     = "1.0.0">
+  
+  <!-- runtime dll -->
+  <Runtime>
+    <Import assembly="servicestringparser.dll"/>
+  </Runtime>        
+  
+  <Extension path = "/Workbench/Services">     
+    <SERVICE id = "ServiceStringParser" class = "3C561AE4-0912-43bb-8CF0-AFB88E7927BD" /> 
+  </Extension>   
+      
+</Plugin> 

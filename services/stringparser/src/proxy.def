@@ -1,0 +1,3 @@
+LIBRARY     servicestringparser.dll
+EXPORTS
+            CoGetImplementationProxy @1 PRIVATE

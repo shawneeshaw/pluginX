@@ -1,0 +1,11 @@
+<Plugin name        = "Simple lua example"
+        author      = ""
+        url         = "http://www.unknown.com"
+        description = "An example of how to load lua file."
+        version     = "1.0.0">
+  
+  <ZScript>
+    <Import assembly = "test.lua"/>
+  </ZScript>
+  
+</Plugin> 

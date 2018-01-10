@@ -1,0 +1,8 @@
+#ifndef UTESTPRIVATE_H
+#define UTESTPRIVATE_H
+
+//#define DUMMY_USER
+
+#endif //UTESTPRIVATE_H
+
+

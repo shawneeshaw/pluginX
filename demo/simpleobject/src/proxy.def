@@ -1,0 +1,3 @@
+LIBRARY     SimpleObjectCat.dll
+EXPORTS
+            CoGetImplementationProxy @1 PRIVATE

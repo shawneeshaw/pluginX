@@ -1,0 +1,11 @@
+<Plugin name        = "String parse service example"
+        author      = ""
+        url         = "http://www.unknown.com"
+        description = "An example to define service."
+        version     = "1.0.0">
+  
+  <Extension path = "/Workbench/Tools>
+    <APP id = "EDP" path = "E:/dir_work/pilot/proj/layer3/post/bin/Debug/postworkbench.exe">
+  </Extension>
+      
+</Plugin> 

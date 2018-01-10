@@ -1,0 +1,12 @@
+<Plugin name        = "Simple object example"
+        author      = ""
+        url         = "http://www.unknonws.com"
+        description = "An example of how to load dll module."
+        version     = "1.0.0">
+  
+  <!-- runtime dll -->
+  <Runtime>
+      <Import assembly="simpleobject.dll"/> 
+  </Runtime>        
+      
+</Plugin> 

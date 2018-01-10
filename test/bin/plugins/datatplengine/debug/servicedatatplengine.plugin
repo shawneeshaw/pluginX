@@ -1,0 +1,27 @@
+<Plugin name        = "String parse service example"
+        author      = ""
+        url         = "http://www.unknown.com"
+        description = "An example to define service."
+        version     = "1.0.0">
+        
+  <!-- require dll -->
+  <Require>
+    <Import assembly = "templated.dll"/>  
+    <Import assembly = "memTrack.dll"/> 
+    <Import assembly = "datatplengined.dll"/> 
+  </Require>      
+  
+  <!-- runtime dll -->
+  <Runtime>
+    <Import assembly = "servicedatatplengined.dll"/>  
+  </Runtime>        
+  
+  <ZScript>
+    <Import assembly = "deform_edp.lua"/>
+  </ZScript>
+  
+  <Extension path = "/Workbench/Services/datatplengine/debug">     
+    <SERVICE id = "ServiceDataTPLEngine" class = "285525E9-8410-43fa-BB7F-9F3A07AB9E67" />  
+  </Extension>   
+      
+</Plugin> 

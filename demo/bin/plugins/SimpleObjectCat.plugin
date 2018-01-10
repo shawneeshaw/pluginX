@@ -1,0 +1,15 @@
+<Plugin name        = "Simple object example"
+        author      = ""
+        url         = "http://www.unknown.com"
+        description = "An example of how to load dll module."
+        version     = "1.0.0">
+  
+  <!-- runtime dll -->
+  <Runtime>
+    <Import assembly="SimpleObjectCat.dll"/>  
+  </Runtime>        
+      
+  <Extension path = "/workspace/classoverride">
+    <OVERRIDE id = "caxSimpleObject" class = "caxSimpleObjectCat" />
+  </Extension>    
+</Plugin>
